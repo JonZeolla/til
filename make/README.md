@@ -15,3 +15,9 @@ make rule_here -n
 make rule_here -d
 ```
 
+## Shells
+Make uses the `SHELL` variable to choose a shell. To specify this, add the following at the top of the `Makefile`:
+```bash
+SHELL := /bin/bash
+```
+
